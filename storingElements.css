@@ -1,0 +1,90 @@
+body {
+    background-color: #f5f4f2;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px gold;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: mymove 10s;
+    background-color: #ddc;
+    border-bottom-color: #fff;
+    border-left-color: #eee;
+    border-radius: 2px;
+    border-right-color: #eee;
+    border-top-color: #ddd;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5vh 5vw;
+    border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/pink-doily-bdr.png") 30;
+    border: 10px solid #ebba34;
+    height: 40vh;
+    padding: 8vmin;
+    position: relative;
+    text-align: center;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+
+}
+
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes mynewmove {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+@keyframes dance {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
