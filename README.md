@@ -1,7 +1,7 @@
 # Lesson 3.2: DOM Intro & Storing HTML
 
 ## JavaScript & HTML DOM:
-- When a webpage loads, the browser creates a **Document Object Model (DOM)** of the page.
+- When a webpage loads, the browser creates a **Document Object Model (DOM)** of the page. 
 - The DOM represents the blueprint of a webpage, structured like a tree of objects.
 
 ## DOM & JavaScript:
